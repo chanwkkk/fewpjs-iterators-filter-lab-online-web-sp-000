@@ -22,5 +22,5 @@ function fuzzyMatch(array,string){
 }
 
 function matchName(obj,name){
-  return array.filter(obj=>matchingTest(obj.name,name))
+  return obj.filter(obj=>matchingTest(obj.name,name))
 }
