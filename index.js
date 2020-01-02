@@ -14,5 +14,6 @@ function fuzzyMatch(array,string){
       testString.push(item[i])
     }
     let test = testString.join("")
+    return test==string
   })
 }
