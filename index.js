@@ -8,7 +8,7 @@ function findMatching(array,name){
 function matchingTest(item,testWord){
   let length = testWord.split("").length
   let testString = []
-  for (let i = 0;i<length-1; i++){
+  for (let i = 0;i<length; i++){
     testString.push(item[i])
   }
   let test = testString.join("")
