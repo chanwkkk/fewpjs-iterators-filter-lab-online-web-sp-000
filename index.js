@@ -11,7 +11,7 @@ function matchingTest(item,testWord){
   for (let i = 0;i<length; i++){
     testString.push(item[i])
   }
-  let test = testString.join("")
+  let text = testString.join("")
   return !!(test===testWord)
 
 }
