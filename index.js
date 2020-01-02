@@ -12,7 +12,7 @@ function matchingTest(item,testWord){
     testString.push(item[i])
   }
   let text = testString.join("")
-  return !!(test===testWord)
+  return !!(test.===testWord)
 
 }
 
