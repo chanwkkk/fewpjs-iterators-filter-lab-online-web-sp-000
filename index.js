@@ -20,3 +20,7 @@ function matchingTest(item,testWord){
 function fuzzyMatch(array,string){
   return array.filter(item=>matchingTest(item,string))
 }
+
+function matchName(obj,name){
+  return array.filter(obj=>matchingTest(obj.name,name))
+}
