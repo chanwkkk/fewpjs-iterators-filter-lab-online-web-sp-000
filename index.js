@@ -18,7 +18,5 @@ function matchingTest(item,testWord){
 
 
 function fuzzyMatch(array,string){
-  return array.filter(item=>{
-
-  })
+  return array.filter(item=>matchingTest(item,string))
 }
