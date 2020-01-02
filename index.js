@@ -13,5 +13,6 @@ function fuzzyMatch(array,string){
     for (let i = 0;i<length-1; i++){
       testString.push(item[i])
     }
+    let test = testString.join("")
   })
 }
